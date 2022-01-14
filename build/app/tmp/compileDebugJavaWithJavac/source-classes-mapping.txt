@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/minimart_grocery/BuildConfig.java
+ com.minimart_grocery.BuildConfig
