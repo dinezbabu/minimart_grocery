@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:minimart_grocery/services/api_service.dart';
 import 'package:minimart_grocery/services/shared_service.dart';
+import 'package:minimart_grocery/widgets/widget_home_categories.dart';
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -12,21 +13,28 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
+    // return Scaffold(
+    //   appBar: AppBar(
+    //     title: Text("Flutter+Node+JWT"),
+    //     elevation: 0,
+    //       actions: [
+    //         IconButton(onPressed: (){
+    //           SharedService.logout(context);
+    //         }, icon: const Icon(
+    //           Icons.logout,
+    //           color: Colors.black,
+    //         ))
+    //       ],
+    //   ),
+    //   backgroundColor: Colors.grey[200],
+    //   body: userProfile(),
+    // );
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Flutter+Node+JWT"),
-        elevation: 0,
-          actions: [
-            IconButton(onPressed: (){
-              SharedService.logout(context);
-            }, icon: const Icon(
-              Icons.logout,
-              color: Colors.black,
-            ))
-          ],
+      body: Container(
+        child: ListView(
+          children: [const HomeCategoriesWidget()],
+        ),
       ),
-      backgroundColor: Colors.grey[200],
-      body: userProfile(),
     );
   }
 

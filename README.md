@@ -20,3 +20,9 @@ git Key: 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
 Reference:
 For developing Login/Register using api: https://www.youtube.com/watch?v=czed-wa21IU&t=951s
 For converting Json to Model: https://www.dripcoding.com/json-to-dart/
+
+
+# To Add Freeze dart
+flutter clean
+flutter pub get
+flutter pub run build_runner build --delete-conflicting-outputs

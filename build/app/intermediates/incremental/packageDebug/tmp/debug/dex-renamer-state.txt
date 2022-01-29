@@ -1,4 +1,4 @@
-#Sun Jan 16 00:42:48 IST 2022
+#Sun Jan 30 01:19:38 IST 2022
 base.0=/Users/dgowda/Documents/DealerSocket/Personal/minimart_grocery/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
